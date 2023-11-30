@@ -1,0 +1,5 @@
+name: 'phygital'
+type: module
+description: 'modulo custom phygital'
+core_version_requirement: '^8.9 || ^9'
+package: 'Custom'

@@ -1,0 +1,29 @@
+<!-- phygital-itinerario.html.twig -->
+<div class="cont phygital_itinerari container-fluid">
+	<div class="cloader">
+		<div class="loader"></div>
+	</div>
+
+	<div class="row">
+		<div class="col-xl-8 col-lg-7 col-md-12 leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" id="map" tabindex="0" style="position: relative;"></div>
+		
+		<div class="col-xl-4 col-lg-5 col-md-12 itin1">
+			<!-- <button class="menu">&#9776; &nbsp; MENU</button> -->
+			<!-- <img class="logo-left" alt="" src="files/logo.png"> -->
+			<div class="iniziaperc citdisp">{{"Itinerari disponibili"|t}}</div>
+
+			<div class="itinerari">
+				<div class="itinerari-cont"></div>
+			</div>
+
+			<div class="citdisp">
+				<button id="avvia" class="butt1" onclick="iniziaTour360('{{ lng }}')" style="display:none;">
+					<img src="/modules/custom/phygital/files/image.png" class="logo_button px-1" alt="avvia">{{"Inizia il tour 360"|t}} ❯
+				</button><br>
+				
+				<button onclick="top.location.href='crea-itinerario'" class="butt1">{{"Creazione itinerario"|t}} ❯</button>
+			</div>
+
+		</div>
+	</div>
+</div>

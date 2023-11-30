@@ -1,0 +1,411 @@
+/* Reset globale */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.25;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{text-decoration:none}
+
+:root {
+  --body: #F7F7F7; 
+  --testo: #2B2B2B;
+  --rosso: #CB1619;
+  --link: #2B2B2B;
+  --linkhover: #CB1619;
+  --butt: #1C2024;
+  --grey: #C0C0C0;
+  --bordo: #BBB;  
+  --grey2: #EEE;
+  
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+html,body{height:100%}
+*{outline: none;}
+
+body,input,div{font-family: 'Rubik', sans-serif; font-size:18px; color:var(--testo);font-weight:300}
+body{background:var(--body);}
+
+h2{font-size:28px; font-weight:500}
+
+b{font-weight:600}
+
+
+body.login{background:var(--body) url(files/sflogin.png) no-repeat right top;}
+
+.form-login{text-align:center; padding-top:120px; display:block; max-width:328px; margin:0 auto; padding-bottom:50px}
+.logo-login{display:block;margin:0 auto 120px auto; width:290px}
+.form-login input{display:block;margin-top:15px; width:100%; background:#FFF; border:1px solid #E6E6E6; padding:18px 24px; border-radius:60px}
+.form-login input:focus{border:1px solid var(--rosso)}
+.form-login input[type=submit]{border:0 !important; color:#FFF;background:var(--rosso); font-weight:500; cursor:pointer;transition:all 0.3s}
+.form-login input[type=submit]:hover{background:var(--butt)}
+
+a, a:link, a:visited, a:active{color:var(--link); transition:all 0.3s}
+a:hover{color:var(--linkhover) !important}
+
+.con-facebook :where(a, a:link, a:visited, a:active){color:var(--testo) !important}
+
+.con-facebook{ margin-top:40px; position:relative}
+.con-facebook a{position:absolute; top:-10px;
+left: 50%; transform: translateX(-50%);
+width: fit-content; white-space:nowrap; padding:0 5%;
+}	
+.con-facebook:before{content:'';height:1px; width:40px; background:var(--testo); position:absolute;left:0}
+.con-facebook:after{content:'';height:1px; width:40px; background:var(--testo); position:absolute;right:0}
+
+
+
+
+
+.phygital_itinerari_ {
+  min-height: 100%;
+  height: auto;
+  display: flex;
+  background-color: #f7f7f7;
+}
+
+.phygital_itinerari {
+  min-height: 100%;
+  height: auto;
+  background-color: #FFF;
+  position:relative
+}
+
+.phygital_itinerari .left {
+  width: 470px; /* o un valore in percentuale o "auto" */
+  padding:0 20px 50px 20px;
+  position:relative
+
+}
+
+.phygital_itinerari .right {
+  flex: 1;
+  background:url(files/genova.jpg) no-repeat center center; background-size: cover;
+  padding:130px;
+  flex-grow: 1;
+  padding-top:130px !important;
+}
+.phygital_itinerari .logo-left{display:block;margin:30px auto 30px auto; width:140px}	
+.phygital_itinerari .contred{background:#090909; padding-bottom:70px; border-radius:14px;position:relative; overflow:hidden;margin-top: 70px;}
+.phygital_itinerari .contwhite{background:#FFF; padding:60px 25px; border-radius:14px; overflow:hidden;box-shadow: 0px 0px 0px 1px #FFF;translateZ(0px) }
+.contpaganini{background:#FFF; padding:60px; border-radius:20px; position:relative}
+
+.phygital_itinerari .butt{color:#FFF; background:var(--butt); font-size:26px; display:block; margin-bottom:50px; width:100%; text-align:center; padding:20px 10px; border-radius:18px; cursor:pointer; transition:all 0.3s}
+.phygital_itinerari .butt:hover{background:var(--rosso); }
+.phygital_itinerari .butt img{vertical-align:middle; margin-right:16px}
+hr.hr-red{height:0;border:0;border-bottom:2px solid var(--rosso)}
+.phygital_itinerari .buttpers{background:var(--rosso); color:#FFF; font-size:40px; display:block; margin-top:50px; width:100%; border-radius:18px; cursor:pointer; transition:all 0.3s}
+.phygital_itinerari .buttpers img, .buttpers span{display:inline-block; vertical-align:middle}
+.phygital_itinerari .buttpers span{margin-left:22px; text-align:left; padding:25px 10px}
+.phygital_itinerari .buttpers:hover{background:var(--butt)}
+.phygital_itinerari .contpaganini-left{font-size:21px; width:40%; padding-bottom:120px}
+.phygital_itinerari .paganini{position:absolute; bottom:0; right:50px; width:50%; max-width:600px}
+
+
+.phygital_itinerari .left1 .contwhite{padding:50px 20px;}
+.phygital_itinerari .titoloner{color:var(--rosso); opacity:.15;font-size:84px; font-weight:700; line-height:1}
+
+/*
+
+@media (max-width: 1600px){
+	.right {padding:50px}
+	.contpaganini{padding:30px;}	
+	.left {
+	  width: 440px; 
+	  padding:0 10px 50px 10px;
+
+	}
+	
+
+}
+
+@media (max-width: 1400px){
+	.right {padding:30px}
+	.contpaganini{padding:20px;}	
+	.left {
+	  width: 440px; 
+	  padding:0 10px 50px 10px;
+
+	}
+	.contpaganini-left{padding-bottom:30px}		
+
+}
+*/
+.phygital_itinerari .logo_button {
+    height: 29px;
+    width: 37px;
+	margin-right:10px;
+	vertical-align:-6px
+}
+.phygital_itinerari .px-1 {
+    padding-right: 0.20rem!important;
+    padding-left: 0.20rem!important;
+}
+.phygital_itinerari .left1{width:600px}
+.phygital_itinerari .left1 .contwhite{min-height:800px}
+.phygital_itinerari .paganini1{position:absolute; bottom:-60px; left:40px }
+.phygital_itinerari .fumetto{width:340px; padding-bottom:60px; background:url(files/fumetto.png) no-repeat left bottom;font-size:28px; 
+ padding-top:30px; display:inline-block; text-align:left
+ }
+.phygital_itinerari .t-right{text-align:right!important; padding-right:10px}
+.phygital_itinerari .butt1{font-size:23px; padding:12px 20px 12px 20px;background:var(--butt); color:#FFF; cursor:pointer; transition:all 0.3s; border-radius:40px  }
+.phygital_itinerari .butttipo img{width:30px; height:30px; border-radius:30px; border:1px solid #AAA; vertical-align:middle; margin-right:10px}
+.phygital_itinerari .butttipo b{margin-right:10px; opacity:0}
+.phygital_itinerari .butttipo{opacity:0.5}
+.phygital_itinerari .butttipo.attiv{opacity:1}
+.phygital_itinerari .butttipo.attiv b{opacity:1}
+
+.phygital_itinerari .butttipo{color:black; font-size:14px; padding:2px 20px 2px 10px;cursor:pointer; transition:all 0.3s; border-radius:40px; margin-bottom:1px; margin-top:1px; display:block; border-bottom:1px solid var(--bordo); width:100%;text-align:left; background:#FFF; border-radius:0; position:relative}
+.phygital_itinerari .butttipo:hover{color:var(--rosso); }
+.phygital_itinerari .butttipo:focus{color:var(--rosso); }
+/*.butt1{font-size:24px; padding:2px 20px 6px 20px;background:var(--butt); color:#FFF; cursor:pointer; transition:all 0.3s; border-radius:40px; }*/
+.phygital_itinerari .butt1:hover{background:var(--rosso); color: #FFF;}
+.phygital_itinerari .butt1:focus{background:var(--rosso); color: #FFF;}
+.phygital_itinerari .leaflet-control-attribution.leaflet-control{display:none}
+
+.citdisp .butt1{display:block; margin-top:15px; min-width:268px}
+
+ .selpoi{font-size:16px; padding:10px 30px 10px 20px; border:1px solid var(--bordo); border-radius:30px; color:#000; cursor:pointer; transition:0.3s all; cursor:pointer; position:relative}
+ .selpoi:hover{color:var(--rosso)}
+ .selpoi:after{content:'\0276E'; position:absolute; right:15px; top:25%; transform: rotate(-90deg);}
+  .selpoi.aperto:after{transform: rotate(90deg);}
+
+.phygital_itinerari .menu{position:absolute; left:20px; top:40px; font-size:18px; padding:7px 30px 7px 20px; color:#000; background:#FFF; cursor:pointer; border-radius:33px}
+
+
+
+
+
+.phygital_itinerari .leaflet-popup *{line-height:1.15; font-size:14px}
+
+.phygital_itinerari .leaflet-popup h3{font-weight:500; font-size:16px; margin-bottom:8px}
+.phygital_itinerari .leaflet-popup .img_copertina{display:block; width:100%; margin-bottom:8px}
+.leaflet-popup .cp{margin-bottom:8px}
+.phygital_itinerari .itinerari3{max-height: 310px;overflow: auto;margin-bottom:20px}
+.phygital_itinerari .itinerari2{padding:10px 15px 20px 15px; border:1px solid var(--bordo); border-radius:0 0 8px 8px; display:none; margin:0 20px; border-top:0}
+
+.itinerari-cont{overflow: auto; max-height: 520px; width: 100%; padding-right:10px}
+.phygital_itinerari .itinerari{/*max-width:335px;*/ margin:0 auto; font-size:22px;}
+.phygital_itinerari .itdisp{
+	font-size:18px; 
+	font-weight:500;
+	padding:10px 20px; 
+	background:var(--grey2); 
+	
+	display:block; 
+	margin-top:20px; 
+	cursor:pointer; 
+	width:100%; 
+	text-align:left;
+	border-radius:52px; 
+	transition:all 0.3s;
+	max-width: 500px;
+    margin: 12px auto;
+	color: black;
+}
+.phygital_itinerari .itdisp.att, .phygital_itinerari .itdisp:hover{color:#FFF; background:var(--rosso);  }
+
+.phygital_itinerari .aggiungi{border:0; color:#FFF; background:var(--testo); cursor:pointer; display:block; margin:20px auto 0 auto;
+padding:8px 10px; border-radius:16px; text-align:center; width:100%}
+.phygital_itinerari .punti{margin-top:12px}
+
+.iniziaperc{padding-bottom:15px;font-weight:600; padding-top:15px}
+input#nomePercorso {
+    margin-bottom: 20px;
+    /* padding: 10px; */
+    /* border: 0px solid black; */
+    /* display: block; */
+    border-radius: 30px;
+    /* padding-top: 10px; */
+	border:1px solid var(--bordo);display:block; padding:8px 20px;
+	display:block; width:100%; font-size:16px
+}
+
+/**/
+.red {
+	color:red;
+}
+  
+.poi_sferiche {
+flex: 1;
+background: url(files/genova.jpg) no-repeat center center;
+background-size: cover;
+padding: 130px;
+padding-top: 130px;
+flex-grow: 1;
+padding-top: 130px !important;
+display: flex;
+}
+
+
+.pallino {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 10px;
+}
+ .delitin, .delpoi{cursor:pointer; margin-left:20px}
+ 
+ .delitin{display:inline-block; padding:5px 10px;background:#f0f0f0; border-radius:28px}
+ 
+ .crimuovi{text-align:right}
+ .rimuovi{display:block; border:0; cursor:pointer; padding:8px 10px; border-radius:26px;margin-top:20px; text-align:center; width:100%}
+
+ 
+ .citdisp{position:relative;    max-width: 500px;
+    margin: 0 auto;}
+ .deleteiti{position:absolute; border-radius:100%; cursor:pointer; right:7px; top: calc( 50% - 14px ); padding:5px; background:#FFF}
+  .moditi{position:absolute; border-radius:100%; cursor:pointer; right:40px; top: calc( 50% - 14px ); padding:5px; background:#FFF}
+  button.moditi, button.deleteiti{
+    color: black !important;
+    line-height: 1.125rem !important;
+  }
+  .delmod{padding-right:70px !important}
+ #prosegui{display:none}
+ 
+ 
+.page-wrapper *:focus,
+.ui-dialog *:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+ 
+ 
+ .mapcrea .leaflet-grab {
+   cursor: pointer !important;
+}
+.leaflet-dragging .leaflet-grab{
+   cursor: grab !important;
+}
+ 
+ 
+
+@media (min-width: 960px){
+	.crea1{padding-right:20px!important;}
+	.itin1{padding-left:20px!important}
+
+} 
+@media (max-width: 959px){
+	.itinerari-cont{overflow: visible; max-height: 10000px; padding-right:0}	
+
+} 
+
+#fumetto2{padding-bottom:20px }
+ #map{height:720px; padding:0 !important}
+ 
+@media (max-height: 900px){
+#map{height:520px}
+	
+
+}
+
+.tipoiti{padding-left:20px}
+
+.cloader{width:calc( 100% + 20px ); height:100%; background:#FFF; position:absolute; z-index:1000000; text-align:center; padding-top:20vh; margin-left:-20px}
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #DDD;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+
+
+
+.itinerari-cont::-webkit-scrollbar,
+.itinerari3::-webkit-scrollbar {
+    width: 12px;
+}
+
+.itinerari-cont::-webkit-scrollbar-track,
+.itinerari3::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+.itinerari-cont::-webkit-scrollbar-thumb,
+.itinerari3::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.pallino{display:none !important}
+
+.marker-cluster{
+    background-color: rgba(181, 226, 140, 0) !important;
+}
+
+.marker-cluster div{
+    background-color: rgba(13, 145, 253, 0.5) !important;
+}
+
+.marker-cluster span{
+    display:none
+}
+
+.tappe{max-width:500px; margin:0 auto; padding-bottom: 14px; border:1px solid var(--rosso); padding-top:28px; margin-top:-28px; border-top:0; border-radius:0 0 16px 16px; display:none}
+.tappe div{font-size:15px; padding: 0 20px; margin-bottom:3px}
+
+.tappe:empty{padding:0; border:0; margin:0}
+
+.selsumap{font-weight:normal; font-size:16px}

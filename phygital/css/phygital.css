@@ -1,0 +1,15 @@
+/**/
+.red{
+  color:red;
+}
+
+.poi_sferiche {
+  flex: 1;
+  background: url(files/genova.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 130px;
+  padding-top: 130px;
+  flex-grow: 1;
+  padding-top: 130px !important;
+  display: flex;
+}

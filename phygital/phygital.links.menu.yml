@@ -1,0 +1,24 @@
+phygital.admin:
+  title: 'Gestione Sferiche'
+  parent: system.admin
+  description: 'Form gestione delle sferiche'
+  route_name: phygital.admin_settings_form
+  weight: 100
+  options:
+    attributes:
+      class:
+        - toolbar-icon
+        - toolbar-icon-system-admin-config
+        - 
+phygital.admin_settings_form:
+  title: 'Gestione App'
+  parent: system.admin
+  description: 'Form gestione App'
+  route_name: phygital.admin_app_form
+  weight: 101
+  options:
+    attributes:
+      class:
+        - toolbar-icon
+        - toolbar-icon-system-admin-config
+
