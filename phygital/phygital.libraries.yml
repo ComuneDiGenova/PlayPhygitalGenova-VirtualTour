@@ -1,0 +1,127 @@
+phygital_libraries:
+  version: 1.x
+  css:
+    theme:
+      css/phygital.css: {}
+  js:
+    js/phygital.js: {}
+
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
+
+phygital_itinerari:
+  version: 1.x
+  css:
+    theme:
+      css/style.css: {}
+  js:
+    js/dc4ce23dc3.js: {}  
+    js/custom.js: {}
+
+
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
+
+leafletlib:
+  version: 1.9.4
+  css:
+    theme:
+      leaflet/leaflet.css: {}
+  js:
+    leaflet/leaflet.js: {}
+
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
+
+phygital_benvenuto:
+  version: 1.x
+  css:
+    theme:
+      css/style.css: {}
+  js:
+    js/dc4ce23dc3.js: {}  
+    js/itinerari.js: {}  
+
+
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
+
+phygital_creaitinerario:
+  version: 1.x
+  css:
+    theme:
+      css/style.css: {}
+      css/bootstrap.min.css: {}
+      leaflet/leaflet.css: {}   
+      leaflet_cluster/MarkerCluster.css: { }
+      leaflet_cluster/MarkerCluster.Default.css: { }         
+  js:
+    leaflet/leaflet.js: {}
+    leaflet_cluster/leaflet.markercluster-src.js: { }
+    js/dc4ce23dc3.js: {}
+    js/proj4.js: {}
+    js/creaitinerario.js: {}
+    js/Control.Geocoder.js: {}
+    
+  dependencies:
+    - core/jquery
+    - core/jquery.once  
+    - core/drupal
+    - core/drupalSettings 
+    
+phygital_itinerario:
+  version: 1.x
+  css:
+    theme:
+      css/style.css: {}
+      leaflet/leaflet.css: {}
+      leaflet/leaflet-routing-machine.css: {}
+      css/bootstrap.min.css: {}
+  js:
+    leaflet/leaflet.js: {}  
+    leaflet/leaflet-routing-machine.js: {}      
+    js/dc4ce23dc3.js: {}  
+    js/itinerario.js: {}
+    js/proj4.js: {}
+
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
+    
+phygital_creaitinerario_comune:
+  version: 1.x
+  css:
+    theme:
+      css/style.css: {}
+      leaflet/leaflet.css: {}   
+      leaflet_cluster/MarkerCluster.css: { }
+      leaflet_cluster/MarkerCluster.Default.css: { }  
+      css/bootstrap.min.css: {}       
+  js:
+    leaflet/leaflet.js: {} 
+    leaflet_cluster/leaflet.markercluster-src.js: { }     
+    js/dc4ce23dc3.js: {} 
+    js/proj4.js: {}    
+    js/creaitinerario_comune.js: {}
+    js/Control.Geocoder.js: {}
+
+    
+  dependencies:
+    - core/jquery
+    - core/jquery.once  
+    - core/drupal
+    - core/drupalSettings

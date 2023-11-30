@@ -1,0 +1,47 @@
+<!-- phygital-creaitinerario.html.twig -->
+<div class="cont phygital_itinerari container-fluid">
+
+	<div class="cloader">
+		<div class="loader"></div>
+	</div>
+
+	<div class="row mapcrea">
+		{{ language.getId() }}
+		<div class="col-xl-3 col-lg-4 col-md-12 crea1">
+			<!-- <button class="menu">&#9776; &nbsp; MENU</button> -->
+			<!-- <img class="logo-left" alt="" src="files/logo.png"> -->
+			
+			<div class="iniziaperc" id="iniziaperc">{{"Inizia a costruire il tuo percorso"|t}}</div>
+
+			<input type="text" size="21" name="nomePercorso" id="nomePercorso" placeholder="{{'Inserisci il nome del tuo itinerario'|t}}">
+
+			<div class="selpoi">{{"Visualizza su mappa"|t}}</div>
+
+			<div class="itinerari2"></div>
+
+			<div class="iniziaperc">
+				{{"Seleziona sulla mappa le tappe del tuo itinerario"|t}}
+				<div class="selsumap">{{"Costruisci il tuo itinerario sulla mappa. Per aggiungere punti al percorso, dove presenti i segnali azzurri, fai doppio click su un punto generico o clicca un simbolo"|t}}</div>
+			</div>
+
+			<div class="itinerari3"></div>
+
+			<div>
+				
+				<button id="prosegui" class="butt1"><img src="/modules/custom/phygital/files/image.png" alt="prosegui" class="logo_button px-1">{{"Calcola il percorso"|t}}</button><!-- &#10095; -->
+				
+				<div id="fumetto2" style="display:none">
+					<button id="salva" class="butt1" style="margin-top:2px"><img src="/modules/custom/phygital/files/image.png" class="logo_button px-1" alt="Salva">{{"Salva"|t}}</button>
+				</div>
+				<!-- <button id="salvaitinerario" class="butt1"><img src="/modules/custom/phygital/files/image.png" class="logo_button px-1">Salva l'itinerario</button> -->
+				
+				<button id="avvia" class="butt1" onclick="iniziaTour360('{{ lng }}')" style="display:none;"><img src="/modules/custom/phygital/files/image.png" class="logo_button px-1" alt="inizia tour 360">{{"Inizia il tour 360"|t}} ❯</button>
+				
+			</div>
+		</div>
+
+		<div class="col-xl-9 col-lg-8 col-md-12" id="map">
+
+	</div>
+	
+</div>

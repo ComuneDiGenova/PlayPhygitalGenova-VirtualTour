@@ -1,0 +1,94 @@
+phygital.content:
+  path: '/phygital'
+  defaults:
+    _controller: '\Drupal\phygital\Controller\PhygitalController::index'
+    _title: 'Pagina Test Phygital'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: TRUE
+
+
+phygital.csv_to_json:
+  path: '/csvtojson'
+  defaults:
+    _title: 'Convert CSV to JSON'
+    _controller: '\Drupal\phygital\Controller\PhygitalController::csvToJson'
+  requirements:
+    _permission: 'access content'
+
+phygital.admin_settings_form:
+  path: '/admin/config/phygital/adminsettings'
+  defaults:
+    _form: '\Drupal\phygital\Form\SetupForm'
+    _title: 'Sferiche Setup Form'
+  requirements:
+    _permission: 'gestisci csv - json'
+  options:
+    _admin_route: TRUE
+  weight: 0
+
+phygital.admin_app_form:
+  path: '/admin/config/phygital/appsettings'
+  defaults:
+    _form: '\Drupal\phygital\Form\AppForm'
+    _title: 'App Setup Form'
+  requirements:
+    _permission: 'gestisci csv - json'
+  options:
+    _admin_route: TRUE
+  weight: 0
+
+
+
+phygital.open_webgl_app:
+  path: '/webgl'
+  defaults:
+    _title: 'Open WebGL Application'
+    _controller: '\Drupal\phygital\Controller\PhygitalController::openWebGLApp'
+  requirements:
+    _permission: 'access content' # Adjust permissions as needed.
+
+phygital.itinerario:
+  path: '/itinerario'
+  defaults:
+    _controller: '\Drupal\phygital\Controller\PhygitalController::itinerario'
+    _title: 'Pagina Itinerari'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: TRUE
+
+phygital.benvenuto:
+  path: '/benvenuto'
+  defaults:
+    _controller: '\Drupal\phygital\Controller\PhygitalController::benvenuto'
+    _title: 'Pagina Benvenuto'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: TRUE
+
+phygital.creaitinerario:
+  path: '/crea-itinerario'
+  defaults:
+    _controller: '\Drupal\phygital\Controller\PhygitalController::creaitinerario'
+    _title: 'Crea itinerario'
+  requirements:
+    _permission: 'access content'
+    _role: authenticated
+  options:
+    no_cache: TRUE
+
+phygital.creaitinerario_comune:
+  path: '/crea-itinerario-comune'
+  defaults:
+    _controller: '\Drupal\phygital\Controller\PhygitalController::creaitinerario_comune'
+    _title: 'Crea itinerario Comune'
+  requirements:
+    _permission: 'access content'
+    _role: administrator + gestione_itinerari
+  options:
+    no_cache: TRUE
+
+

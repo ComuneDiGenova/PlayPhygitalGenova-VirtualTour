@@ -1,0 +1,62 @@
+<?php
+
+/**
+ * @file
+ * Contains figital.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function phygital_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the figital module.
+    case 'help.page.figital':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('modulo custom figital') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function phygital_theme() {
+  return [
+    'phygital_custom_page' => [
+      'render element' => 'children',
+      'variables' => ['test_var' => NULL],
+    ],
+    'phygital_itinerari' => [
+      'render element' => 'children',
+      'variables' => ['test_var' => NULL],
+    ],
+    'phygital_itinerario' => [
+      'render element' => 'children',
+      'variables' => [
+        'test_var' => NULL,
+        'lng' => NULL,
+      ],
+    ],	
+    'phygital_benvenuto' => [
+      'render element' => 'children',
+      'variables' => ['test_var' => NULL],
+    ],
+	  'phygital_creaitinerario' => [
+      'render element' => 'children',
+      'variables' => [
+        'test_var' => NULL,
+        'lng' => NULL,
+        ],
+    ],
+	  'phygital_creaitinerario_comune' => [
+      'render element' => 'children',
+      'variables' => ['test_var' => NULL],
+    ],
+  ];
+}
