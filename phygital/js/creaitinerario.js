@@ -50,6 +50,14 @@
                             ru: "Пустой путь",
                         };
 
+                        const trans_mobile_unavailable = {
+                            it: "Funzionalità attualmente non disponibile su dispositivi mobili",
+                            en: "Functionality currently not available on mobile devices",
+                            fr: "Fonctionnalité actuellement non disponible sur les appareils mobiles",
+                            es: "Funcionalidad actualmente no disponible en dispositivos móviles",
+                            ru: "Функционал в настоящее время не доступен на мобильных устройствах",
+                        };
+
                         console.log("benvenuto creaitinerario.js");
 
                         user_code = jQuery("body").attr('"data-user-code"');
@@ -393,8 +401,16 @@
                             $("#prosegui").trigger("click");
                         };
                         window.iniziaTour360 = function (user_language) {
-                            var linkUrl = "/web360/index.html?lingua=" + user_language;
-                            window.open(linkUrl, "_blank");
+                            if ($(window).width() < 768) {
+                                if (trans_mobile_unavailable.hasOwnProperty(current_language)) {
+                                    alert(trans_mobile_unavailable[current_language]);
+                                } else {
+                                    alert(trans_mobile_unavailable["it"]);
+                                }
+                            } else {
+                                var linkUrl = "/web360/index.html?lingua=" + user_language;
+                                window.open(linkUrl, "_blank");
+                            }
                         };
                         /*
                         function creapercorso(){
