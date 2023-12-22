@@ -26,15 +26,19 @@ ors_proxy.php serve per le operazioni di caching. Per far sì che funzioni è ne
 
 ## Version History
 
-## Versione 1.1
+## Versione 1.4
 
-Aggiunti loader caricamento mappe
-Ora compaiono gli indirizzi, il filtro dei poi funziona e il percorso viene centrato sulla mappa
+Aggiunta notifica all'utenza dell'attuale indisponibilità della funzionalità web 360 su dispositivi mobili
+
+## Versione 1.3
+
+Aggiunti file proxy per fetch chiamate API e gestione ORS cache
 
 ## Versione 1.2
 
 Migliorie sull'accessibilità
 
-## Versione 1.3
+## Versione 1.1
 
-Aggiunti file proxy per fetch chiamate API e gestione ORS cache
+Aggiunti loader caricamento mappe
+Ora compaiono gli indirizzi, il filtro dei poi funziona e il percorso viene centrato sulla mappa
