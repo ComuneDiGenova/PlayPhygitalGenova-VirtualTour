@@ -1,0 +1,287 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "V_MOB_PARKS_BIKESHARING.1",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1492622.57035564,
+                    4917525.0536951,
+                    15.56
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID": 1,
+                "NOME": "MATITONE"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_MOB_PARKS_BIKESHARING.2",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1493605.175,
+                    4918073.67548147,
+                    8.23
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID": 2,
+                "NOME": "PRINCIPE"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_MOB_PARKS_BIKESHARING.3",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1494282.66657378,
+                    4917334.20823369,
+                    0
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID": 3,
+                "NOME": "CARICAMENTO"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_MOB_PARKS_BIKESHARING.4",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1494802.03046044,
+                    4917160.01165058,
+                    0
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID": 4,
+                "NOME": "DE FERRARI"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_MOB_PARKS_BIKESHARING.5",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1495731.07890365,
+                    4916969.68575423,
+                    0
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID": 5,
+                "NOME": "BRIGNOLE"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_MOB_PARKS_BIKESHARING.6",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1491117.95835973,
+                    4917623.14357644,
+                    0
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID": 6,
+                "NOME": "VITTORIO VENETO"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_MOB_PARKS_BIKESHARING.7",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1492094.6113142,
+                    4917336.73219343,
+                    0
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID": 7,
+                "NOME": "SAN BENIGNO"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_MOB_PARKS_BIKESHARING.8",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1494476.39073524,
+                    4917817.95031246,
+                    0
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID": 8,
+                "NOME": "ZECCA"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_MOB_PARKS_BIKESHARING.9",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1495660.18106083,
+                    4916457.67666211,
+                    0
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID": 9,
+                "NOME": "QUESTURA"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_MOB_PARKS_BIKESHARING.10",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1496183.26274772,
+                    4917971.76074705,
+                    0
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID": 10,
+                "NOME": "STADIO"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_MOB_PARKS_BIKESHARING.11",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1493985.13805462,
+                    4917924.5708555,
+                    0
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID": 11,
+                "NOME": "DARSENA"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_MOB_PARKS_BIKESHARING.12",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1494569.74353156,
+                    4916717.67742101,
+                    0
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID": 12,
+                "NOME": "MARINA"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_MOB_PARKS_BIKESHARING.13",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1495989.97998652,
+                    4917164.61733764,
+                    0
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID": 13,
+                "NOME": "RAGGI"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_MOB_PARKS_BIKESHARING.15",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1490581.55683532,
+                    4917787.2509202,
+                    0
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID": 15,
+                "NOME": "FIUMARA"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_MOB_PARKS_BIKESHARING.16",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1492999.84026238,
+                    4917879.50880334,
+                    0
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID": 16,
+                "NOME": "DI NEGRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_MOB_PARKS_BIKESHARING.17",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1495670.82551408,
+                    4915903.22072738,
+                    0
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID": 17,
+                "NOME": "ROSSETTI"
+            }
+        }
+    ],
+    "totalFeatures": 16,
+    "numberMatched": 16,
+    "numberReturned": 16,
+    "timeStamp": "2023-07-28T15:46:41.326Z",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:EPSG::3003"
+        }
+    }
+}
