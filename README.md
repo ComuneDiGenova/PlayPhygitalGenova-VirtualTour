@@ -14,7 +14,7 @@ Le principali cartelle/files usati dal repository sono
 
 Documentazione allegata:
 
-* [Manuale moduli drupal](./phygital/README.md)
+* [Manuale moduli drupal](./phygital/README.MD)
 * [Manuale progetto Unity virtual tour](./web360/README.md)
 
 
