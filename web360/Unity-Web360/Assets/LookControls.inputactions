@@ -1,0 +1,74 @@
+{
+    "name": "LookControls",
+    "maps": [
+        {
+            "name": "mouse",
+            "id": "2e5bea21-a2d6-405f-9a2e-c41ffea9670a",
+            "actions": [
+                {
+                    "name": "MouseLook",
+                    "type": "PassThrough",
+                    "id": "0e2a3747-3af0-4075-b0a2-fb7f07ca82b2",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Drag",
+                    "type": "Button",
+                    "id": "4d51d41f-9c92-49a2-8273-5dcf85cd9e96",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Touch",
+                    "type": "Button",
+                    "id": "e0bfe783-058d-43c8-a63c-ba18c4703b4a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "294fde36-3244-4c8a-b9ed-e5ce07d1346e",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseLook",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cbfe0a33-9c65-4697-ab1c-6335f3017999",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Drag",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4f1a84c5-22fa-4861-ba8b-3f3b349877c9",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

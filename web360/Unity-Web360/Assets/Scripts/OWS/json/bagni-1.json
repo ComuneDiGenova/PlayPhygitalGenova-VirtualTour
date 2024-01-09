@@ -1,0 +1,1296 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.271",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1496124.03749268,
+                    4917269.99559413
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Vespasiano",
+                "AUTOPUL": null,
+                "ACCESSIBILE": "NO",
+                "DATI": "Via Moresco",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 271,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.291",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1487197.12995885,
+                    4919428.96731801
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Vespasiano",
+                "AUTOPUL": null,
+                "ACCESSIBILE": "NO",
+                "DATI": "Via Sant'Alberto",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 291,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.295",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1491547.65578471,
+                    4919997.55210484
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Vespasiano",
+                "AUTOPUL": null,
+                "ACCESSIBILE": "NO",
+                "DATI": "Via Piombelli",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 295,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.296",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1494059.55476985,
+                    4918504.56318756
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Vespasiano",
+                "AUTOPUL": null,
+                "ACCESSIBILE": "NO",
+                "DATI": "Corso Ugo Bassi, 9",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 296,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.337",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1495979.61281919,
+                    4917115.87815807
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "SI",
+                "DATI": "Stazione Metropolitana Brignole",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 337,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.1",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1493972.96017909,
+                    4917922.1447925
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "SI",
+                "DATI": "Mercato della Darsena (Via Boccanegra)",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 1,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.2",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1494670.97291033,
+                    4917581.76500956
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "SI",
+                "DATI": "Palazzo Tursi",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 2,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.3",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1494581.05724583,
+                    4917609.86857453
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "SI",
+                "DATI": "Piazza della Meridiana",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 3,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.4",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1494616.31598671,
+                    4916794.52942075
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "SI",
+                "DATI": "Stazione Metropolitana \"Sarzano/Sant'Agostino\"",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 4,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.5",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1492876.1931569,
+                    4917806.35715883
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "SI",
+                "DATI": "Mercato di Dinegro",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 5,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.6",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1494113.98310864,
+                    4917454.80233063
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "SI",
+                "DATI": "Galleria Atlantide (Acquario)",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 6,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.7",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1494339.72214692,
+                    4917218.94459887
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Stazione Metropolitana San Giorgio",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 7,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.8",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1493913.87169652,
+                    4917267.39249893
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "SI",
+                "DATI": "Magazzini del Cotone",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 8,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.9",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1494214.02732496,
+                    4917129.01860584
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "SI",
+                "DATI": "Calata Mandraccio (Testata Millo )",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 9,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.10",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1494795.26586501,
+                    4917210.74188171
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "SI",
+                "DATI": "Piazza Raffaele De Ferrari",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 10,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.12",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1495806.71789713,
+                    4917070.4327832
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "SI",
+                "DATI": "Stazione Ferroviaria Genova Brignole",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 12,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.211",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1494438.64465568,
+                    4917978.388353
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "SI",
+                "DATI": "Piazza del Carmine",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 211,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.11",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1495406.55792164,
+                    4916952.86186564
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "SI",
+                "DATI": "Mercato Orientale",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 11,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.192",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1503340.07598846,
+                    4914206.12625733
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "SI",
+                "DATI": "stazione Ferroviaria Genova Nervi",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 192,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.292",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1497471.72719692,
+                    4916942.29374732
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Vespasiano",
+                "AUTOPUL": null,
+                "ACCESSIBILE": "NO",
+                "DATI": "Viale Benedetto XV",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 292,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.272",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1498394.58370936,
+                    4915428.64878962
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Vespasiano",
+                "AUTOPUL": null,
+                "ACCESSIBILE": "NO",
+                "DATI": "Via Chighizola",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 272,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.273",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1484336.46032592,
+                    4919067.83637864
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Vespasiano",
+                "AUTOPUL": null,
+                "ACCESSIBILE": "NO",
+                "DATI": "Piazza Lido Pegli",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 273,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.294",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1491875.48143475,
+                    4917555.1967056
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Vespasiano",
+                "AUTOPUL": null,
+                "ACCESSIBILE": "NO",
+                "DATI": "Via Gerolamo Pittaluga",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 294,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.331",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1492532.71930451,
+                    4921182.44943054
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Cimitero Rivarolo",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 331,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.320",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1495380.27024672,
+                    4917851.22810301
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Vespasiano",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Corso Solferino",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 320,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.321",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1495914.45649052,
+                    4917509.60773351
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Vespasiano",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Mura dello Zerbino",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 321,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.323",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1494338.67842369,
+                    4917216.00570856
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Vespasiano",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Via Turati",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 323,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.324",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1493850.41352202,
+                    4918636.15291969
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Vespasiano",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Via Napoli",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 324,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.325",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1494028.03870761,
+                    4919070.59666172
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Vespasiano",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Via Maculano",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 325,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.327",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1496858.19451443,
+                    4917117.51664769
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "SI",
+                "DATI": "mercato di Terralba",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 327,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.330",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1492290.95814711,
+                    4927850.29350383
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Cimitero di Cesino (Via Benedetto da Cesino)",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 330,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.332",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1489601.92093032,
+                    4917930.58270242
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Piazza Monteverdi (ex mercato di Cornigliano)",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 332,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.333",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1489599.76243705,
+                    4917916.22120066
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Vespasiano",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Piazza Monteverdi (ex mercato di Cornigliano)",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 333,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.335",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1487624.36343243,
+                    4919336.05758441
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "SI",
+                "DATI": "Villa Rossi",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 335,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.336",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1485319.00991707,
+                    4919535.11907064
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Villa Doria",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 336,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.339",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1499941.36515399,
+                    4916941.08596438
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Piazza Pitto",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 339,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.340",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1502838.99808988,
+                    4914623.70419252
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Piazza Duca degli Abruzzi",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 340,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.341",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1482793.33091402,
+                    4919318.34167706
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "SI",
+                "DATI": "Giardini Dapelo",
+                "OPERATIVO": "In fase di Realizzazione",
+                "ID": 341,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.342",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1499558.64663347,
+                    4914993.59991672
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Quarto (Monumento dei Mille)",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 342,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.392",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1498780.02161457,
+                    4918168.20672791
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Giardini dei Camaldoli 162) (Via P. Berghini",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 392,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.397",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1479841.591783,
+                    4920496.06827769
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Cimitero Voltri",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 397,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.393",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1490779.67080545,
+                    4920823.15507757
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Cimitero di Fegino",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 393,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.396",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1482200.9494333,
+                    4919462.87065461
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Cimitero Prà",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 396,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.315",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1494731.27270836,
+                    4917754.20215006
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Vespasiano",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Salita della Torretta",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 315,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.317",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1494303.2223717,
+                    4918192.05418113
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Vespasiano",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Corso Dogali",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 317,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.318",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1495643.99618321,
+                    4917843.06372209
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Vespasiano",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Corso Armellini",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 318,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.319",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1494846.05343657,
+                    4918071.34081458
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Vespasiano",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Via Caffaro",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 319,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.322",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1494747.97029812,
+                    4917607.3416865
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Vespasiano",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Via R. Lurago",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 322,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.326",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1494082.96464099,
+                    4919013.46854639
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Vespasiano",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Giardini Semino",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 326,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.328",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1491741.10695086,
+                    4917610.6424581
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Villa Scassi",
+                "OPERATIVO": "In fase di Realizzazione",
+                "ID": 328,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.329",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1496966.65150354,
+                    4917263.94963091
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "SI",
+                "DATI": "Villa Imperiale",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 329,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.334",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1488589.89787724,
+                    4919476.68092811
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "SI",
+                "DATI": "Giardini Longhi",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 334,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.338",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1501046.56426203,
+                    4914728.63342376
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "SI",
+                "DATI": "Sottopasso Bagnara- Via Quinto",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 338,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.391",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1494383.3658179,
+                    4917398.01928802
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Piazza Caricamento",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 391,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.394",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1489472.00714025,
+                    4919338.9171773
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Cimitero Coronata",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 394,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.395",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1487824.2009281,
+                    4920240.90044988
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Cimitero S. G. Battista",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 395,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.398",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1485394.90797829,
+                    4919673.19457617
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Cimitero Pegli",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 398,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.399",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1496249.33945493,
+                    4916432.2566934
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Mercato Piazza Scio",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 399,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.400",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1502612.64716206,
+                    4914477.07285611
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "NO",
+                "DATI": "Piazzetta E. Cressi",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 400,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.401",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1503670.53629973,
+                    4914355.24668247
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "SI",
+                "DATI": "Parchi di Nervi",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 401,
+                "FONTE_DATI": "CS"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "V_BAGNI.402",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1491120.93094772,
+                    4917674.0916009
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "NOTE": "Bagno",
+                "AUTOPUL": "NO",
+                "ACCESSIBILE": "SI",
+                "DATI": "Piazza Vittorio Veneto",
+                "OPERATIVO": "Servizi disponibili",
+                "ID": 402,
+                "FONTE_DATI": "CS"
+            }
+        }
+    ],
+    "totalFeatures": 61,
+    "numberMatched": 61,
+    "numberReturned": 61,
+    "timeStamp": "2023-07-28T15:45:42.834Z",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:EPSG::3003"
+        }
+    }
+}
