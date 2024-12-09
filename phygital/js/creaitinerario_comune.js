@@ -946,7 +946,7 @@
                                     "," +
                                     lat +
                                     "','" +
-                                    address.replace("'", "\\'") +
+                                    address.replace(/'/g, "''") +
                                     "');\">" +
                                     trans_add_to_itinerary +
                                     "</button>";
