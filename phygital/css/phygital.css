@@ -1,15 +1,20 @@
-/**/
-.red{
-  color:red;
+.red {
+    color: red;
 }
 
 .poi_sferiche {
-  flex: 1;
-  background: url(files/genova.jpg) no-repeat center center;
-  background-size: cover;
-  padding: 130px;
-  padding-top: 130px;
-  flex-grow: 1;
-  padding-top: 130px !important;
-  display: flex;
+    flex: 1;
+    background: url(files/genova.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 130px;
+    padding-top: 130px;
+    flex-grow: 1;
+    padding-top: 130px !important;
+    display: flex;
+}
+
+div#block-visitgenoa-content {
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 3em;
 }

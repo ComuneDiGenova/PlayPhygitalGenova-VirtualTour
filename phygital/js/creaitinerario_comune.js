@@ -3,7 +3,6 @@
     Drupal.behaviors.creaitinerariocomune = {
         attach: function (context, settings) {
             const dev_root = drupalSettings.phygital.dev_root;
-            const prod_root = drupalSettings.phygital.prod_root;
             const env_root = location.origin;
             if (!onlyOnce) {
                 onlyOnce = true;
@@ -466,10 +465,37 @@
                             routeLayer.addTo(map);				
                         }
                         */
+                        //icona della tipologia POI: campo "icona" dell'API, altrimenti icona di default
+                        var iconaDefault = urlbase + "/modules/custom/phygital/css/files/poi-default.png";
+                        function iconaTipologia(id) {
+                            //bagni e bike non arrivano dall'API tipologie: icone locali
+                            if (id == "999" || id == "998") {
+                                return urlbase + "/modules/custom/phygital/css/files/" + id + ".png";
+                            }
+                            var tipo = listaTipiPOI.find(function (t) {
+                                return t.id == id;
+                            });
+                            var icona = tipo && typeof tipo.icona === "string" ? tipo.icona.trim() : "";
+                            return /^https?:\/\//i.test(icona) ? icona : iconaDefault;
+                        }
+
+                        //se l'icona non si carica (menu o marker) si usa quella di default
+                        document.addEventListener(
+                            "error",
+                            function (e) {
+                                var img = e.target;
+                                if (img.tagName === "IMG" && img.classList.contains("poi-icon") && img.src !== iconaDefault) {
+                                    img.src = iconaDefault;
+                                }
+                            },
+                            true
+                        );
+
                         function mostraPOI(tipo, show) {
                             customIcon = {
-                                iconUrl: urlbase + "/modules/custom/phygital/css/files/" + tipo + ".png",
+                                iconUrl: iconaTipologia(tipo),
                                 iconSize: [30, 30],
+                                className: "poi-icon",
                             };
                             myIcon = L.icon(customIcon);
 
@@ -615,11 +641,9 @@
                                 $(".itinerari2").append(
                                     '<button z-index="999" id="tipoPOI' +
                                         tipo.id +
-                                        '" class="butttipo attiv"><b>&#10004;</b><img src="' +
-                                        urlbase +
-                                        "/modules/custom/phygital/css/files/" +
-                                        tipo.id +
-                                        '.png" alt="tipoPOI' +
+                                        '" class="butttipo attiv"><b>&#10004;</b><img class="poi-icon" src="' +
+                                        iconaTipologia(tipo.id) +
+                                        '" alt="tipoPOI' +
                                         tipo.id +
                                         '"><!--span id="spanPOI' +
                                         tipo.id +

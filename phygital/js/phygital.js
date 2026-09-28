@@ -3,8 +3,6 @@
     let onlyOnce;
     Drupal.behaviors.viewtipologie = {
         attach: function (context, settings) {
-            const dev_root = drupalSettings.phygital.dev_root;
-            const prod_root = drupalSettings.phygital.prod_root;
             const env_root = location.origin;
             if (!onlyOnce) {
                 onlyOnce = true;

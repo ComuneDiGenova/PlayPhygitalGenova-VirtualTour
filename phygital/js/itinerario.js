@@ -3,7 +3,6 @@
     Drupal.behaviors.itinerario = {
         attach: function (context, settings) {
             const dev_root = drupalSettings.phygital.dev_root;
-            const prod_root = drupalSettings.phygital.prod_root;
             const env_root = location.origin;
             if (!onlyOnce) {
                 onlyOnce = true;
@@ -69,10 +68,37 @@
 
                         var markerspoi = [];
 
+                        //icona della tipologia POI: campo "icona" dell'API, altrimenti icona di default
+                        var iconaDefault = urlbase + "/modules/custom/phygital/css/files/poi-default.png";
+                        function iconaTipologia(id) {
+                            //bagni e bike non arrivano dall'API tipologie: icone locali
+                            if (id == "999" || id == "998") {
+                                return urlbase + "/modules/custom/phygital/css/files/" + id + ".png";
+                            }
+                            var tipo = listaTipiPOI.find(function (t) {
+                                return t.id == id;
+                            });
+                            var icona = tipo && typeof tipo.icona === "string" ? tipo.icona.trim() : "";
+                            return /^https?:\/\//i.test(icona) ? icona : iconaDefault;
+                        }
+
+                        //se l'icona non si carica (menu o marker) si usa quella di default
+                        document.addEventListener(
+                            "error",
+                            function (e) {
+                                var img = e.target;
+                                if (img.tagName === "IMG" && img.classList.contains("poi-icon") && img.src !== iconaDefault) {
+                                    img.src = iconaDefault;
+                                }
+                            },
+                            true
+                        );
+
                         function mostraPOI(tipo, show) {
                             customIcon = {
-                                iconUrl: urlbase + "/modules/custom/phygital/css/files/" + tipo + ".png",
+                                iconUrl: iconaTipologia(tipo),
                                 iconSize: [30, 30],
+                                className: "poi-icon",
                             };
                             myIcon = L.icon(customIcon);
 
@@ -485,15 +511,15 @@
                             return dati;
                         }
 
-                        function listait() {
+                        function chiamaListaItinerari(uid) {
                             //url = "https://testnew.visitgenoa.it/jsonapi/post_itinerari_list"; // Replace with your API URL
                             url = env_root + "/fetch_api_call.php";
-                            const uid = user_code;
 
                             const requestBody = new FormData();
                             requestBody.append("uid", uid);
                             requestBody.append("endpoint", "post_itinerari_list");
 
+                            var lista = [];
                             $.ajax({
                                 url: url,
                                 type: "POST",
@@ -510,19 +536,41 @@
                                 success: function (data) {
                                     // Successful response, print the data
                                     console.log(data);
-                                    localStorage.setItem("listaItinerari", JSON.stringify(data));
-
-                                    /*	
-                                    data.forEach(function(poi) {
-                                        console.log(poi.id)
-                                        })					
-                                    */
+                                    if (Array.isArray(data)) lista = data;
                                 },
                                 error: function (error) {
                                     // Request failed, handle the error here
                                     console.error("Error: Request failed.", error);
                                 },
                             });
+                            return lista;
+                        }
+
+                        function listait() {
+                            //itinerari del Comune (uid 0), sempre
+                            var comune = chiamaListaItinerari(0);
+                            //itinerari dell'utente, solo se loggato
+                            var utente = user_code && user_code != 0 ? chiamaListaItinerari(user_code) : [];
+
+                            //prima gli itinerari del Comune, poi quelli dell'utente (il rendering si basa su quest'ordine)
+                            var tutti = comune.concat(utente);
+                            var visti = {};
+                            var lista = tutti
+                                .filter(function (i) {
+                                    return i.predefinito == 1;
+                                })
+                                .concat(
+                                    tutti.filter(function (i) {
+                                        return i.predefinito != 1;
+                                    })
+                                )
+                                .filter(function (i) {
+                                    if (visti[i.id]) return false;
+                                    visti[i.id] = true;
+                                    return true;
+                                });
+
+                            localStorage.setItem("listaItinerari", JSON.stringify(lista));
                         }
 
                         listait();
@@ -608,11 +656,9 @@
                                 $(".itinerari2").append(
                                     '<button z-index="999" id="tipoPOI' +
                                         tipo.id +
-                                        '" class="butttipo attiv"><b>&#10004;</b><img src="' +
-                                        urlbase +
-                                        "/modules/custom/phygital/css/files/" +
-                                        tipo.id +
-                                        '.png"><!--span id="spanPOI' +
+                                        '" class="butttipo attiv"><b>&#10004;</b><img class="poi-icon" src="' +
+                                        iconaTipologia(tipo.id) +
+                                        '"><!--span id="spanPOI' +
                                         tipo.id +
                                         '">x</span-->' +
                                         tipo.nome +

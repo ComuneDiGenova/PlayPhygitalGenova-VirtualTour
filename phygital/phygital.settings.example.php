@@ -30,7 +30,6 @@ return [
   // Public values exposed to the JS as drupalSettings.phygital.
   'js' => [
     'dev_root' => 'https://dev.phygital.bbsitalia.com',
-    'prod_root' => 'https://www.visitgenoa.it',
     // User forced when browsing from dev_root.
     'dev_user_code' => '',
     'dev_user_id' => 0,
