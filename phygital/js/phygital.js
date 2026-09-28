@@ -3,8 +3,8 @@
     let onlyOnce;
     Drupal.behaviors.viewtipologie = {
         attach: function (context, settings) {
-            const dev_root = "https://dev.phygital.bbsitalia.com";
-            const prod_root = "https://testnew.visitgenoa.it";
+            const dev_root = drupalSettings.phygital.dev_root;
+            const prod_root = drupalSettings.phygital.prod_root;
             const env_root = location.origin;
             if (!onlyOnce) {
                 onlyOnce = true;
@@ -24,7 +24,7 @@
                         } else {
                             if (poi_data_gl == null) {
                                 console.log("la variabile di sessione NON è settata");
-                                getJsonPoi(prod_root + "/jsonapi/api-poi-list");
+                                getJsonPoi(env_root + "/fetch_api_call.php?endpoint=api-poi-list");
                             } else {
                                 console.log("la variabile di sessione è settata");
                                 var map = L.map("map").setView([44.4, 8.93], 16);
@@ -102,14 +102,8 @@
 })(jQuery, Drupal, drupalSettings);
 
 function getJsonPoi(url_json) {
-    let username = "";
-    let password = "";
-    let auth = btoa(`${username}:${password}`);
-    fetch(url_json, {
-        headers: {
-            Authorization: `Basic ${auth}`,
-        },
-    })
+    // Credentials are added server side by fetch_api_call.php
+    fetch(url_json)
         .then(function (response) {
             if (response.ok) {
                 console.log("dati ricevuti");

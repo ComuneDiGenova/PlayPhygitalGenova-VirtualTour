@@ -24,6 +24,25 @@ function phygital_help($route_name, RouteMatchInterface $route_match) {
 }
 
 /**
+ * Implements hook_library_info_alter().
+ *
+ * Exposes the public 'js' section of phygital.settings.php as
+ * drupalSettings.phygital. Credentials are never sent to the browser.
+ */
+function phygital_library_info_alter(&$libraries, $extension) {
+  $settings_file = __DIR__ . '/phygital.settings.php';
+  if ($extension !== 'phygital' || !file_exists($settings_file)) {
+    return;
+  }
+  $settings = require $settings_file;
+  foreach ($libraries as $name => &$library) {
+    if ($name !== 'leafletlib') {
+      $library['drupalSettings']['phygital'] = $settings['js'];
+    }
+  }
+}
+
+/**
  * Implements hook_theme().
  */
 function phygital_theme() {

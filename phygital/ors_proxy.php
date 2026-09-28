@@ -1,19 +1,20 @@
 <?php
-// Get the API key from the client-side request (modify this to suit your actual implementation)
-//https://openrouteservice.org/dev/#/home
+// Settings live in phygital.settings.php, next to this file or in the module folder (when this file is copied into /web)
+$settings = require (file_exists(__DIR__ . '/phygital.settings.php') ? __DIR__ : __DIR__ . '/modules/custom/phygital') . '/phygital.settings.php';
 
-$apiKey = '';
+//https://openrouteservice.org/dev/#/home
+$apiKey = $settings['ors']['api_key'];
 
 // The URL to the OpenRouteService API
-$openRouteServiceUrl = 'https://api.openrouteservice.org/v2/directions/foot-walking';
+$openRouteServiceUrl = $settings['ors']['url'];
 
 // Get the query parameters from the client-side request
 $queryParams = http_build_query($_GET);
 
-$host = 'localhost';
-$database = 'dev_phygital';
-$db_user = 'usr_phygital';
-$db_pass = '';
+$host = $settings['db']['host'];
+$database = $settings['db']['database'];
+$db_user = $settings['db']['user'];
+$db_pass = $settings['db']['password'];
 
 $con = new mysqli($host, $db_user, $db_pass, $database); 
 if ($con->connect_error) { die("Connection failed: " . $con->connect_error); }

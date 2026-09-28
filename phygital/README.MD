@@ -18,13 +18,32 @@ Nei file Javascript creaitinerario_comune.js, creaitinerario.js, itinerario.js, 
 
 I file fetch_api_call.php, ors_proxy.php e proxy_get.php sono da spostare all'interno della root Drupal dell'applicazione principale, ovvero dentro /web.
 
-fetch_api_call.php è un proxy utilizzare per gestire tutte le chiamate API, ed è necessario che la variabile $base_url venga aggiornata di conseguenza, in base all'endpoint che si desidera utilizzare.
+### Configurazione (phygital.settings.php)
+
+I parametri dipendenti dall'ambiente sono raccolti in un unico file, phygital.settings.php, da creare nella cartella del modulo copiando phygital.settings.example.php e compilandone i valori. Il file è escluso da git (vedi .gitignore).
+
+-   api: parametri delle API visitgenoa, usati da fetch_api_call.php
+-   ors: parametri di OpenRouteService, usati da ors_proxy.php
+-   db: parametri per la tabella ors_cache, usati da ors_proxy.php
+-   js: valori pubblici (dev_root, prod_root, utente forzato su dev) esposti ai file Javascript come drupalSettings.phygital. Dopo averli modificati è necessario svuotare la cache di Drupal (drush cr)
+
+fetch_api_call.php e ors_proxy.php cercano phygital.settings.php nella propria cartella oppure, una volta copiati in /web, in /web/modules/custom/phygital.
+
+fetch_api_call.php è un proxy utilizzare per gestire tutte le chiamate API; l'endpoint da utilizzare si imposta tramite api.base_url in phygital.settings.php.
 
 proxy_get.php viene utilizzato dall'app web 360 per evitare problemi di CORS.
 
 ors_proxy.php serve per le operazioni di caching. Per far sì che funzioni è necessario creare una nuova tabella all'interno del database denominata ors_cache. Importare struttura e oggetti già cachati utilizzando il file phygital_ors_table.sql.
 
 ## Version History
+
+## Versione 1.5
+
+Introdotto il file di configurazione phygital.settings.php (da creare a partire da phygital.settings.example.php) che raccoglie in un unico punto i parametri dipendenti dall'ambiente
+fetch_api_call.php e ors_proxy.php leggono i parametri dal file di configurazione, sia dalla cartella del modulo sia una volta copiati in /web
+I file Javascript ricevono dev_root, prod_root e l'utente di test tramite drupalSettings.phygital
+Il recupero dei POI in phygital.js passa ora dal proxy fetch_api_call.php, come già avviene in itinerario.js
+Rimosso il file phpinfo.php
 
 ## Versione 1.4
 

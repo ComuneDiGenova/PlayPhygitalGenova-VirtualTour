@@ -2,8 +2,8 @@
     let onlyOnce;
     Drupal.behaviors.itinerario = {
         attach: function (context, settings) {
-            const dev_root = "https://dev.phygital.bbsitalia.com";
-            const prod_root = "https://testnew.visitgenoa.it";
+            const dev_root = drupalSettings.phygital.dev_root;
+            const prod_root = drupalSettings.phygital.prod_root;
             const env_root = location.origin;
             if (!onlyOnce) {
                 onlyOnce = true;
@@ -44,10 +44,8 @@
 
                         //FORZATURA PER DEV.PHYGITAL
                         if (location.origin == dev_root) {
-                            //user_code = "";
-                            //user_id = 73;
-                            user_code = "16832116725";
-                            user_id = 21;
+                            user_code = drupalSettings.phygital.dev_user_code;
+                            user_id = drupalSettings.phygital.dev_user_id;
                         }
 
                         contacache = 1;

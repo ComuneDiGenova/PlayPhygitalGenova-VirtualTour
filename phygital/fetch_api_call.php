@@ -2,10 +2,13 @@
 
 header("Access-Control-Allow-Origin: *");
 
-$username = '';
-$password = '';
+// Settings live in phygital.settings.php, next to this file or in the module folder (when this file is copied into /web)
+$settings = require (file_exists(__DIR__ . '/phygital.settings.php') ? __DIR__ : __DIR__ . '/modules/custom/phygital') . '/phygital.settings.php';
 
-$base_url = 'https://testnew.visitgenoa.it/jsonapi/';
+$username = $settings['api']['username'];
+$password = $settings['api']['password'];
+
+$base_url = $settings['api']['base_url'];
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Fetch the data from the incoming POST request
@@ -46,8 +49,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $endpoint = $_GET['endpoint'];
     $url = $base_url . $endpoint;
-    $username = '';
-    $password = '';
 
     $ch = curl_init($url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
